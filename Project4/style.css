@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url("assets/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bgText {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  width: 900px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 54px;
+}
+
+h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
